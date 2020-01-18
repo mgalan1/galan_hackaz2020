@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/lobster_corgi" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/user"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:layout_alignParentTop="true"
@@ -30,7 +30,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/pass"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:layout_alignParentBottom="true"

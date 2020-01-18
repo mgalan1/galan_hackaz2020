@@ -5,7 +5,7 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/getStarted"
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:layout_alignParentTop="true"
@@ -19,7 +19,7 @@
         android:textSize="25sp" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/firstName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -30,24 +30,36 @@
         android:hint="First Name"/>
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/lastName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="423dp"
+        android:layout_marginTop="290dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Last Name" />
+        android:hint="Last Name"
+        android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/Email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="326dp"
+        android:layout_marginTop="360dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Email" />
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="260dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName" />
+
 </RelativeLayout>
